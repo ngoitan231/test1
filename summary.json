@@ -1,0 +1,44 @@
+{
+  "title": "Thông tư 86/2024/TT-BTC — Đăng ký thuế",
+  "effective_date": "2025-02-06",
+  "replaces": "105/2020/TT-BTC",
+  "highlights": [
+    "Ứng dụng CSDL quốc gia về dân cư và định danh điện tử trong thủ tục đăng ký thuế",
+    "Phân loại MST: 10 số (đơn vị độc lập), 13 số (đơn vị phụ thuộc), định danh cá nhân dùng thay MST cá nhân",
+    "Thời hạn xử lý hồ sơ nhanh: cấp MST lần đầu ~3 ngày; cấp lại ~2 ngày",
+    "Có quy trình dự phòng khi hệ thống gặp sự cố kỹ thuật"
+  ],
+  "structure": "N1N2 N3N4N5N6N7N8N9 N10 - N11N12N13",
+  "procedures": [
+    {
+      "name": "Đăng ký lần đầu (tổ chức)",
+      "sla": "3 ngày",
+      "note": "Cấp Giấy CN/Thông báo MST qua Cổng TCT"
+    },
+    {
+      "name": "Cấp lại Giấy CN/MST",
+      "sla": "2 ngày",
+      "note": "Mất/rách/nát... xử lý điện tử"
+    },
+    {
+      "name": "Thay đổi thông tin",
+      "sla": "2–3 ngày",
+      "note": "Theo tính chất thay đổi và địa bàn"
+    },
+    {
+      "name": "Tạm ngừng/tiếp tục",
+      "sla": "2 ngày",
+      "note": "Thông báo và phản hồi chấp thuận/không chấp thuận"
+    },
+    {
+      "name": "Chấm dứt hiệu lực MST",
+      "sla": "Tuân thủ nghĩa vụ trước khi chấm dứt",
+      "note": "Ban hành thông báo sau khi đủ điều kiện"
+    },
+    {
+      "name": "Khôi phục MST",
+      "sla": "Theo xử lý của cơ quan thuế",
+      "note": "Công khai trên cổng TCT"
+    }
+  ]
+}

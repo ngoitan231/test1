@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thông tư 86/2024/TT-BTC — Tóm tắt đăng ký thuế</title>
+  <meta name="description" content="Landing page tóm tắt các điểm chính của Thông tư 86/2024/TT-BTC về đăng ký thuế.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <img src="img/icon.svg" alt="Icon" class="logo">
+    <nav class="nav">
+      <a href="#overview">Tổng quan</a>
+      <a href="#scope">Phạm vi</a>
+      <a href="#mst">Mã số thuế</a>
+      <a href="#procedures">Thủ tục</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <h1>Thông tư 86/2024/TT-BTC</h1>
+      <p>Quy định về đăng ký thuế — tóm tắt ngắn gọn, dễ hiểu và có thể triển khai ngay.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#overview">Xem tóm tắt</a>
+        <a class="btn" href="summary.json" download>Tải JSON tóm tắt</a>
+      </div>
+      <p class="meta">Hiệu lực: <strong>06/02/2025</strong> · Thay thế: <strong>TT 105/2020/TT-BTC</strong></p>
+    </div>
+    <div class="hero-visual">
+      <img src="img/cover.png" alt="Đăng ký thuế">
+    </div>
+  </div>
+</section>
+
+<section id="overview" class="section">
+  <div class="container">
+    <h2>Tổng quan nhanh</h2>
+    <ul class="pill-list" id="highlights">
+      <!-- populated by JS -->
+    </ul>
+    <div class="note">
+      <p><strong>Lưu ý:</strong> Thông tư tăng cường kết nối <em>CSDL quốc gia về dân cư</em> và <em>định danh điện tử</em> để đơn giản hóa hồ sơ điện tử.</p>
+    </div>
+  </div>
+</section>
+
+<section id="scope" class="section alt">
+  <div class="container grid-2">
+    <div>
+      <h3>Phạm vi điều chỉnh</h3>
+      <p>Quy định đối tượng đăng ký thuế trực tiếp, cấu trúc mã số thuế, thủ tục đăng ký/điều chỉnh/tạm ngừng/chấm dứt/khôi phục, và biện pháp quản lý.</p>
+    </div>
+    <div>
+      <h3>Đối tượng áp dụng</h3>
+      <p>Người nộp thuế; cơ quan quản lý, công chức thuế; cơ quan nhà nước, tổ chức, cá nhân liên quan.</p>
+    </div>
+  </div>
+</section>
+
+<section id="mst" class="section">
+  <div class="container grid-2">
+    <div>
+      <h3>Cấu trúc mã số thuế</h3>
+      <pre class="code">N1N2 N3N4N5N6N7N8N9 N10 - N11N12N13</pre>
+      <ul class="list">
+        <li>N1N2: phân khoảng</li>
+        <li>N3…N9: dãy tăng từ 0000001 → 9999999</li>
+        <li>N10: chữ số kiểm tra</li>
+        <li>N11N12N13: số thứ tự (001–999)</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Phân loại</h3>
+      <ul class="list">
+        <li><strong>10 số</strong>: đơn vị độc lập, một số trường hợp cá nhân ở nước ngoài.</li>
+        <li><strong>13 số</strong>: đơn vị phụ thuộc & một số đối tượng đặc thù.</li>
+        <li><strong>Số định danh cá nhân</strong> có thể dùng thay cho MST của cá nhân.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="procedures" class="section alt">
+  <div class="container">
+    <h2>Thủ tục & thời hạn xử lý</h2>
+    <div class="cards" id="cards">
+      <!-- populated by JS -->
+    </div>
+    <div class="timeline">
+      <div class="time-item"><span>02 ngày</span><p>Cấp lại Giấy CN/Thông báo MST</p></div>
+      <div class="time-item"><span>03 ngày</span><p>Cấp MST lần đầu cho tổ chức/cá nhân phù hợp</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="section">
+  <div class="container">
+    <h2>FAQ</h2>
+    <details>
+      <summary>Đăng ký điện tử có cần nộp bản sao hộ chiếu?</summary>
+      <p>Nếu cá nhân đã kích hoạt tài khoản định danh điện tử mức 2 và hộ chiếu đã tích hợp trong tài khoản, <em>không cần</em> nộp bản sao hộ chiếu.</p>
+    </details>
+    <details>
+      <summary>Khi hệ thống gặp sự cố kỹ thuật thì sao?</summary>
+      <p>Cơ quan thuế xử lý theo <em>quy trình dự phòng</em> (hồ sơ giấy), sau đó cập nhật dữ liệu lên hệ thống khi khắc phục xong.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Tóm tắt Thông tư 86/2024/TT-BTC · Landing page tĩnh (HTML/CSS/JS).</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
